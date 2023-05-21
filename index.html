@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./Css.css">
+</head>
+<body>
+    <header>
+
+        <h1 class="fw-light m-5 opacity-50 ">Bookmarker</h1>
+    </header>
+    
+    <div class=" my-5 m-auto">
+        <div class="text-center container m-auto my-5 test p-5">
+        <header class="m-5">
+            <h2 class="text-center m-5">
+                Bookmark your favorite sites
+            </h2>
+        </header>
+        
+        <label for="BookName" class="m-3 fw-bold">Site Name</label>
+        <input type="text" class="form-control w-50 text-center m-auto m-3" id="BookName" aria-describedby="emailHelp" placeholder="Bookmark Name">
+        <label for="url" class="m-3 fw-bold">Site URL</label>
+        <input type="text" class="form-control w-50 text-center m-auto m-3" id="url" aria-describedby="emailHelp" placeholder="Website URL">
+        <button class="btn btn-primary m-5" onclick="submit()">Submit </button>
+        
+    </div>
+    <table class="m-5 table table-striped" >
+        <thead>
+            <th>
+                Site Name
+            </th>
+        </thead>
+        <tbody id="tbody">
+        
+
+        </tbody>
+    </table>
+</div>
+<footer>
+    <div class="container">
+        <p>&copy; 2019 Bookmarker Inc.</p>
+    </div>
+</footer>
+
+
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./Js.js"></script>
+</body>
+</html>
